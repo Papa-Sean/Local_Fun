@@ -1,0 +1,9 @@
+.title{
+    text-align: center;
+    color: red;
+    background-color: lightblue;
+    text-size-adjust: 25px;
+}
+body{
+    background-color: green;
+}
