@@ -1,40 +1,291 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My custom Bulma website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Local Fun!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel = "stylesheet" href = "style.css">
   </head>
   <body>
-     <h1 class="title">
-        Bulma
-      </h1>
-
-      <p class="subtitle">
-        Modern CSS framework based on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
-      </p>
-
-      <div class="field">
-        <div class="control">
-          <input class="input" type="text" placeholder="Input">
+    <header class = "section has-background-link py-4 has-text-white">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <span class="icon">
+              <i class="far fa-envelope"></i>
+            </span>
+            Select Data
+          </div>
+          <div class="column">
+            <span class="icon">
+              <i class="fas fa-phone-volume"></i>
+            </span>
+            Use Current
+          </div>
+          <div class="column">
+            <span class="icon">
+              <i class="fas fa-headphones-alt"></i>
+            </span>
+            Use Alternative
+          </div>
         </div>
       </div>
-
-      <div class="field">
-        <p class="control">
-          <span class="select">
-            <select>
-              <option>Select dropdown</option>
-            </select>
-          </span>
-        </p>
+    </header> 
+    <section class="section" id = "hero">
+      <div class="container">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+              <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+            </a>
+        
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+        
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item has-text-white">
+                Home
+              </a>
+        
+              <a class="navbar-item has-text-white">
+                Services
+              </a>
+        
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link has-text-white">
+                  More
+                </a>
+        
+                <div class="navbar-dropdown">
+                  <a class="navbar-item">
+                    Select Data
+                  </a>
+                  <a class="navbar-item">
+                    Use Current
+                  </a>
+                  <a class="navbar-item">
+                    Use Alternative
+                  </a>
+                  <hr class="navbar-divider">
+                  <a class="navbar-item">
+                    Report an issue
+                  </a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a class="button is-info">
+                    <strong>Sign up</strong>
+                  </a>
+                  <a class="button is-warning">
+                    Log in
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="columns pt-6">
+          <div class="columns mt-6">
+            <span class="icon has-text-warning">
+              <i class="far fa-chart-bar fa-lg"></i>
+            </span>
+            <h1 class="is-size-1 has-text-white">
+              Web Design <br />
+              & App Development
+            </h1>
+            <p class="has-text-white">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, pariatur. Nemo veritatis ad iure. Fugiat cumque fuga assumenda mollitia sequi reiciendis, fugit officia ullam suscipit praesentium quas, alias sed in.
+            </p>
+            <buton class="button is-warning mt-4">
+              Learn more
+            </buton>
+          </div>
+          <div class="column mt-6">
+            <img src="http://eastendlocal.com/wp-content/uploads/2017/09/local_events_1024.png" alt="Local Events">
+          </div>
+        </div>
       </div>
-
-      <div class="buttons">
-        <a class="button is-primary">Primary</a>
-        <a class="button is-link">Link</a>
+    </section>
+    <section class="section" id = "services">
+      <div class="container">
+        <div class="has-text-centered">
+          <h2 class="title is-2">Local Event Page</h2>
+          <h6 class="subtitle is-6 has-text-grey">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam eligendi corrupti officiis cumque blanditiis non, nemo corporis quisquam nulla, ex nobis? At, ullam? Deleniti, distinctio cum veniam doloremque fugiat autem.
+          </h6>
+        </div>
+        <div class="columns pt-6">
+          <div class="column">
+            <div class="card">
+              <div class="card-content">
+                <div class="has-text-centered">
+                  <span class="icon is-size-1 py-6 my-3">
+                    <i class="fas fa-paint-brush"></i>
+                  </span>
+                </div>
+                <p class="title is-4">
+                  Local Fun
+                </p>
+                <div class="content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nemo accusantium libero beatae necessitatibus, eum consequatur facilis perferendis repellendus animi quod fugit repellat atque autem repudiandae culpa at nesciunt corrupti.
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href = "" class = "card-footer-item">Learn More</a>
+              </footer>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="card-content">
+                <div class="has-text-centered">
+                  <span class="icon is-size-1 py-6 my-3">
+                    <i class="fas fa-server"></i>
+                  </span>
+                </div>
+                <p class="title is-4">
+                  Server
+                </p>
+                <div class="content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nemo accusantium libero beatae necessitatibus, eum consequatur facilis perferendis repellendus animi quod fugit repellat atque autem repudiandae culpa at nesciunt corrupti.
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href = "" class = "card-footer-item">Learn More</a>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <div class="columns pt-6">
+          <div class="column">
+            <div class="card">
+              <div class="card-content">
+                <div class="has-text-centered">
+                  <span class="icon is-size-1 py-6 my-3">
+                    <i class="fas fa-mobile-alt"></i>
+                  </span>
+                </div>
+                <p class="title is-4">
+                  Moblie
+                </p>
+                <div class="content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nemo accusantium libero beatae necessitatibus, eum consequatur facilis perferendis repellendus animi quod fugit repellat atque autem repudiandae culpa at nesciunt corrupti.
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href = "" class = "card-footer-item">Learn More</a>
+              </footer>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="card-content">
+                <div class="has-text-centered">
+                  <span class="icon is-size-1 py-6 my-3">
+                    <i class="far fa-chart-bar"></i>
+                  </span>
+                </div>
+                <p class="title is-4">
+                  Seo boost
+                </p>
+                <div class="content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nemo accusantium libero beatae necessitatibus, eum consequatur facilis perferendis repellendus animi quod fugit repellat atque autem repudiandae culpa at nesciunt corrupti.
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href = "" class = "card-footer-item">Learn More</a>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <div class="field-is-grouped mt-6 is-flex service buttons">
+          <p class="control">
+            <button class="button-is-warning">
+              Free Consultation
+            </button>
+          </p>
+          <p class="control">
+            <button class="button-is-info">
+              Request Pricing
+            </button>
+          </p>
+        </div>
+        <div class="columns mt-6 pt-5 logos is-relative">
+          <div class="column">
+            <img src="https://sova.pitt.edu/wp-content/uploads/2017/12/Activities.jpg" alt="Activities">
+          </div>
+          <div class="column">
+            <img src="https://www.thebestideasforkids.com/wp-content/uploads/2020/03/Indoor-Activities-for-Kids-Cover.jpg" alt=" Indoor Activities">
+          </div>
+          <div class="column">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/91AOC4FDOeL.jpg" alt="Outdoor Activities">
+          </div>
+        </div>
       </div>
+    </section>
+    <section class="section" id = "contact">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <div class="card">
+              <header class="card-header has-background-warning">
+                <p class="card-header-title">
+                  Developers
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="field">
+                  <label for="" class="label">Name</label>
+                  <p class="control">
+                    <input type="text" class="input" placeholder = "Name">
+                  </p>
+                </div>
+                <div class="field">
+                  <label for="" class="label">Phone Number</label>
+                  <p class="control">
+                    <input type="text" class="input" placeholder = "Phone number">
+                  </p>
+                </div>
+                <div class="field">
+                  <label for="" class="label">Email</label>
+                  <p class="control">
+                    <input type="email" class="input" placeholder = "Email">
+                  </p>
+                </div>
+                <div class="field">
+                  <p class="control">
+                    <button class="button is-warning">
+                      Submit
+                    </button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column has-text-white pt-6 pl-6">
+            <span class="icon is-size-1 pb-6 my-3 has-text-grey-lighter">
+              <i class="fas fa-quote-left"></i>
+            </span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum harum eligendi temporibus, eveniet placeat veritatis commodi. Quaerat placeat necessitatibus cupiditate obcaecati nemo ullam voluptatibus in aliquid, amet provident officiis atque!
+            </p>
+            <p class="has-text-weight-bold pt-3 is-size-4">Ryan Stout</p>
+            <span class="icon is-size-1 pt-6 pr-3 my-3 has-text-grey-lighter is-pulled-right">
+              <i class="fas fa-quote-right"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
