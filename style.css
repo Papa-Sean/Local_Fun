@@ -1,5 +1,10 @@
+header{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+}
 .container{
-    background: blue;
+    background: lightsalmon;
     text-align: center;
     text-size-adjust: 1000px;
     font-size: 100%
@@ -44,4 +49,15 @@ body{
     .navbar-menu a.has-text-white:hover{
         color: #423;
     }
+}
+.column{
+    background-color: red;
+}
+div.image{
+    content: url(https://www.hfullerton.com/uploads/1/1/5/4/115474359/disney_orig.jpg);
+    height: 100px;
+    width: 100px;
+}
+p{
+    text-align: center;
 }
