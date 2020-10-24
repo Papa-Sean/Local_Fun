@@ -53,11 +53,6 @@ body{
 .column{
     background-color: red;
 }
-div.image{
-    content: url(https://www.hfullerton.com/uploads/1/1/5/4/115474359/disney_orig.jpg);
-    height: 100px;
-    width: 100px;
-}
 p{
     text-align: center;
 }
