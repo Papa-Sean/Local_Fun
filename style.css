@@ -50,19 +50,81 @@ body{
         color: #423;
     }
 }
-.column{
-    background-color: red;
+
+.my-column{
+    background-color: lightgray;
 }
+
+
 p{
     text-align: center;
 }
+
 h6{
     font-style: italic;
     font-weight: bolder;
 }
+
 .startWeather {
     display: flex;
     justify-content: space-around;
     margin: 10px;
     padding: 10px;
+}
+
+/* Events section */
+
+.event-col {
+    background-color: white;
+    padding: 20px;
+}
+
+.ev-form {
+    background-color: white;
+}
+
+#event-holder {
+    background-color: white;
+}
+
+.my-eventcard {
+    background-color: white;
+}
+
+.ev-input {
+    margin-bottom: 10px;
+
+}
+
+#events-holder {
+    background-color: white;
+}
+
+.ev-input {
+    margin-bottom: 5px;
+}
+
+.ev-title {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.footer-title {
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    background-color: white;
+}
+
+.logo {
+    max-height: 150px;
+}
+
+.weatherLogo {
+    max-height: 150px;
+}
+
+.eventfulLogo {
+    max-height: 70px;
 }
