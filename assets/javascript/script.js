@@ -1,5 +1,6 @@
 $( document ).ready(function(){
 
+    // created settings for the api call
 var settings = {
 	"async": true,
 	"crossDomain": true,
@@ -11,10 +12,12 @@ var settings = {
 	}
 }
 
+// ajax call for the api info
 $.ajax(settings).done(function (response) {
     var widget = show(response);
     $("#covid-holder").html(widget);
 });
+// function that displays the info to the page
 function show(response){
     return "<h3><strong>COVID STATS FOR</strong>:<br> " + response.response[3].country +  "</h3>"+
     "<h4><strong>STATS FOR</strong>:<br> " + response.response[3].day + "</h4><br>" +
